@@ -6,3 +6,4 @@ Automatically Generate the query files:
 Cblaster search:
   Perform a cblaster search for every query file generated against every strain. 
   For each strain in parallel execute the query for the strain I am running on. 
+  
