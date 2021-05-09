@@ -9,6 +9,7 @@ Output to genbank format with a specific identifier. (i.e. 02.OZ|000530_query.gb
 
 ######Cblaster search
 Perform a cblaster search for every query file against every strain. 
+run searches in parrallel for each strain
 Save hits to each loci in a corresponding folder (i.e. M36_1_hits/StrainName.csv)
 Any hits in a new strain get cross referenced against the searches already performed (this way we don't need to repeat entire search)
 If the strain has a locus corresponding to previous results, add the hits to the corresponding folder 
