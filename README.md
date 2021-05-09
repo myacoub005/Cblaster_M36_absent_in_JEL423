@@ -7,7 +7,7 @@ Cblaster search:
   Perform a cblaster search for every query file against every strain. 
   For each strain in parallel execute the query for the strain I am running on.
   Save each of those output files in a particular folder under a specific scheme so that we can know we’ve already run it. 
-    i.e. M36_1, M36_2
-  Any hits in a new strain get cross referenced against the searches already performed
-    If the new hits are not found in the previous searches they get a new 
+    i.e. M36_1, M36_2, etc.
+  Any hits in a new strain get cross referenced against the searches already performed (this way we don't need to repeat entire search)
+    Generate a new If the hits in the new strain are not found in the previous search results
   
